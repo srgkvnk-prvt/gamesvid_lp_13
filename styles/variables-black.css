@@ -1,0 +1,29 @@
+:root {
+    --color-primary: #1a1a1a;
+    --color-primary-hover: #1f1f1f;
+    --color-light: #f74e00;
+    --color-grey: rgba(47, 47, 47, 0.71);
+    --color-accent: #d64400;
+    --color-accent-hover: #ff5404;
+    --container-width: 720px;
+    --font-12-size: 12px;
+    --font-15-size: 15px;
+    --font-17-size: 17px;
+    --font-18-size: 18px;
+    --font-20-size: 20px;
+    --font-28-size: 28px;
+    --font-32-size: 32px;
+}
+
+@media (max-width: 1024px) {
+     :root {
+        --container-width: 80vw;
+        --font-12-size: 10px;
+        --font-15-size: 13px;
+        --font-17-size: 15px;
+        --font-18-size: 16px;
+        --font-20-size: 18px;
+        --font-28-size: 22px;
+        --font-32-size: 24px;
+    }
+}
